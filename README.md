@@ -1,12 +1,23 @@
-# React + Vite
+🐾 Pet Memorial Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Pet Memorial Application — a space to celebrate, remember, and honor the pets who brought love and joy into our lives.
 
-Currently, two official plugins are available:
+🌸 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Pet Memorial app allows users to:
 
-## Expanding the ESLint configuration
+Create a digital memorial for their pets.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Share stories, photos, and cherished memories.
+
+Keep a living tribute that celebrates the bond between humans and their animal companions.
+
+✨ Features
+
+🖼️ Upload photos of pets
+
+📝 Write personalized memorial messages
+
+💖 Create a lasting tribute page for each pet
+
+🌐 View and share memorials with others
