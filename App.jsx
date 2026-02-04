@@ -1,11 +1,11 @@
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/memorials/navbar';
-import Home from './pages/memorials/home';
-import SignIn from './pages/memorials/signnin';
-import CreateMemorial from './pages/memorials/addmemorial';
-import ViewMemorial from './pages/memorials/seememorial';
-import ContactForm from './components/memorials/contact';
-import SignUp from './pages/memorials/signup';
+import { Route, Routes } from 'react-router-dom';
+import CreateMemorial from './addmemorial';
+import ContactForm from './contact';
+import Home from './home';
+import Navbar from './navbar';
+import ViewMemorial from './seememorial';
+import SignIn from './signnin';
+import SignUp from './signup';
 
 const App = () => {
   return (
