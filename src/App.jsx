@@ -1,11 +1,12 @@
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/memorials/navbar';
-import Home from './pages/memorials/home';
-import SignIn from './pages/memorials/signnin';
-import CreateMemorial from './pages/memorials/addmemorial';
-import ViewMemorial from './pages/memorials/seememorial';
+import { Route, Routes } from 'react-router-dom';
 import ContactForm from './components/memorials/contact';
+import Navbar from './components/memorials/navbar';
+import CreateMemorial from './pages/memorials/addmemorial';
+import Home from './pages/memorials/home';
+import ViewMemorial from './pages/memorials/seememorial';
+import SignIn from './pages/memorials/signnin';
 import SignUp from './pages/memorials/signup';
+
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
         <Route path="/memorials/addmemorial" element={<CreateMemorial />} />
         <Route path="/memorials/seememorial" element={<ViewMemorial />} />
         <Route path="/memorials/contact" element={<ContactForm />} />
-      </Routes>
+      </Routes> 
     </div>
   );
 };
